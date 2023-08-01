@@ -15,7 +15,7 @@ After you have connect your Adapter with your Rasbery Pi and the RS232 Cabel fro
 1. open the shell window and call: ls -l /dev/serial/by-id
 find the adapter 
 ![alt text](https://raw.githubusercontent.com/solarsnoop/PCM60X-Monitor/master/serport.jpg)
-In this example it the:``` usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0```
+In this example it is the:``` usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0```
 
 Please copy your result for the Prolific controler and use it in the same way like this:
 ser = serial.Serial(port='/dev/serial/by-id/usb-Prolific_Technology_Inc._USB-Serial_Controller-if00-port0',baudrate=2400,timeout=2) 
