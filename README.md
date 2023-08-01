@@ -8,7 +8,7 @@ https://www.szenebox.org/archive/index.php/t-4319.html user NIMBUS
 
 This is an example how you can request datas from an PCM60X Inverter with python 3 code and an 
 What you need to do is connect your raspberry pi with the existing RS232 cable, and buy an adapter to USB (pl2303 chip) or use an serielle interface adapter.
-My adapter is an UGREEN USB auf RS232 Seriell Kabel USB Seriell DB9 mit PL2303 Chipsatz (1M) (Search in AMAZON)
+```My adapter is an UGREEN USB auf RS232 Seriell Kabel USB Seriell DB9 mit PL2303 Chipsatz (1M) (Search in AMAZON)```
 
 After you have connect your Adapter with your Rasbery Pi and the RS232 Cabel from your Inverter open a shell window and :
 
